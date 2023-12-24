@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800&display=swap');
+body {
+    font-family: 'Cairo', sans-serif;
+}
+
+/* Left To Right */
+.setting {
+    right: -250px;
+}
+.setting.open {
+    right: 0px;
+}
+nav.nav-bullets .bullet div {
+right: -140px;
+}
+nav.nav-bullets .bullet div::before {
+border-color: transparent  var(--color-page) transparent transparent;
+right: 120px;
+}
+.nav-bullets {
+left: 10px;
+}
+.header-area nav ul::before {
+    right: auto;
+    left: 36px;
+}
+.timeline .timeline-box .right .content::before {
+    left: auto;
+    right: -38px;
+}
+.header-area ul.open+ button span:first-child {
+    transform: rotate(45deg) translate(7px, 1px);
+  }
+  .header-area ul.open+ button span:last-child {
+    transform: rotate(-45deg) translate(5px, 1px);
+  }
+.timeline .timeline-box .right .content::after {
+    border-color: transparent transparent transparent #fff  ;
+    left: auto;
+    right: -19px;
+}
+.timeline .timeline-box .left .content::before {
+    right: auto;
+    left: -38px;
+}
+.timeline .timeline-box .left .content::after {
+    border-color: transparent #fff transparent transparent ;
+    right: auto;
+    left: -19px;
+}
+
